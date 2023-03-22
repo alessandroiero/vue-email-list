@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue Email List</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!-- Css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- /Css -->
@@ -13,7 +14,11 @@
 
 <body>
 
-    <div id="app"></div>
+    <div id="app">
+        <ul>
+            <li>{{email}}</li>
+          </ul>
+    </div>
 
     <!-- vue -->
     <script src='https://unpkg.com/vue@3/dist/vue.global.js'></script>
